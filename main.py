@@ -36,9 +36,12 @@ from random import shuffle
   # 25
 new_list = randint(1, 201)
 print("new list")
-# print(new_list)
-# shuffle(new_list)
-# print(new_list)
+print(new_list)
+if new_list % 2 == 0:
+    print("odd")
+else:
+    print("even")
+
   
   # # Return random integer in range [a, b], including both end points.
   # randint(0,100)
