@@ -1,5 +1,6 @@
 from random import randint
 from random import shuffle
+from random import choice
   # random
   # Python comes with a built in random library. There are a lot of functions included in this random library, so we will only 
   #show you two useful functions for now.
@@ -41,7 +42,9 @@ if new_list % 2 == 0:
     print("odd")
 else:
     print("even")
-
+color =  ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
+random_color = choice(color)
+print(f"random color is {random_color}")
   
   # # Return random integer in range [a, b], including both end points.
   # randint(0,100)
